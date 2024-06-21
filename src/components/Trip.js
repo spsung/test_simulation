@@ -61,11 +61,11 @@ const INITIAL_VIEW_STATE = {
 const minTime = 0;
 const maxTime = 350;
 const animationSpeed = 0.5;
-const mapStyle = "mapbox://styles/spear5306/ckzcz5m8w002814o2coz02sjc";
+const mapStyle = "mapbox://styles/spsung/clxo9mpnb00il01po7mk37sik";
 
 //  자신의 mapbox api key 입력
 // const MAPBOX_TOKEN = `mapbox api key`;
-const MAPBOX_TOKEN = `pk.eyJ1Ijoic2hlcnJ5MTAyNCIsImEiOiJjbG00dmtic3YwbGNoM2Zxb3V5NmhxZDZ6In0.ZBrAsHLwNihh7xqTify5hQ`;
+const MAPBOX_TOKEN = `pk.eyJ1Ijoic3BzdW5nIiwiYSI6ImNseDFmemxwODBiZ3gybW9wemx0bnhzOW8ifQ.Xcq1YUrEPwUZZbaqMslQ_Q`;
 
 const returnAnimationTime = (time) => {
     if (time > maxTime) {
